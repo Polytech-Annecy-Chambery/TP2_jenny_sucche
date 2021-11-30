@@ -24,13 +24,13 @@ if __name__ == '__main__':
     # Lecture image et affichage
     #==============================================================================
     image = Image()
-    image.load(path_to_assets + 'test1.JPG')
+    image.load(path_to_assets + 'test10.JPG')
     image.display("Exemple d'image")
 
     #==============================================================================
     # Binarisation de l'image et affichage
     #==============================================================================
-    S = 10
+    S = 100
     image_binarisee = image.binarisation(S)
     image_binarisee.display("Image binarisee")
 
